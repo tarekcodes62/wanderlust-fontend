@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌍 Wanderlust - Travel Booking Platform
 
-## Getting Started
+A modern, responsive travel booking web application built with Next.js, React,
+and TypeScript. Explore destinations, manage bookings, and enjoy a seamless
+travel planning experience.
 
-First, run the development server:
+## ✨ Features
+
+- Responsive design for desktop, tablet, and mobile.
+- User authentication with Better Auth.
+- Explore and discover travel destinations.
+- Create and manage travel bookings.
+- Personalized booking management.
+- Modern UI with reusable components.
+- Dynamic routing with Next.js App Router.
+- Secure API communication with the backend.
+
+## 🛠️ Technologies
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Lucide React
+- Better Auth
+- MongoDB
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/tarekcodes62/wanderlust-client.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd wanderlust-client
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Configure environment variables
+
+Create a `.env.local` file in the project root.
+
+```env
+BETTER_AUTH_SECRET=your_secret_key
+BETTER_AUTH_URL=http://localhost:3000
+NEXT_PUBLIC_API_URL=http://localhost:5000
+```
+
+Add other environment variables required by your application. Keep secrets
+private and never commit them to GitHub.
+
+### 5. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+## 🌐 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project can be deployed on [Vercel](https://vercel.com/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Push your code to GitHub.
+2. Import the repository into Vercel.
+3. Configure the required environment variables.
+4. Deploy the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Ensure your backend API is deployed and its URL is correctly configured.
 
-## Deploy on Vercel
+## 👨‍💻 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Tarek Rahman**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- GitHub: [tarekcodes62](https://github.com/tarekcodes62)
+
+## 📄 License
+
+This project is developed for learning and portfolio purposes.
